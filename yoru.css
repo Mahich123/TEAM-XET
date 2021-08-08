@@ -1,0 +1,256 @@
+::-webkit-scrollbar {
+    display: none;
+}
+.navi {
+    background-color: #1f2229;
+    width: 100%;
+    color: #fac14d;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.text {
+    position: absolute;
+    top: 17%;
+    left: 39%;
+    color: #FFEBC9;
+    font-family: 'Bangers', cursive;
+}
+#members {
+    background-color: #2d2826;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.max {
+    margin: 5rem 0 0 3rem;
+    border-radius: 3rem 6rem;
+    width: 16rem;
+}
+.ign {
+    color: #ffebc9;
+    font-family: 'Bangers', cursive;
+    font-size: x-large;
+ }
+ .role {
+    background-color: #fdc052;
+    width: 22rem;
+    font-family: 'Bangers', cursive;
+    padding-left: 1rem;
+}
+.mtx {
+    margin: 0 0 0 1rem;
+}
+.bio {
+    height: 100vh;
+    background-color: #ccb696;
+    font-family: 'Bangers', cursive;
+    color: black;
+    padding-top: 17rem;
+}
+.about {
+    display: flex;
+    justify-content: flex-end;
+    background: 628395;
+    padding: 0 3rem 0 0;
+    background: #eeeae6;
+    width: 22rem;
+}
+.des {
+    padding: 1rem;
+}
+.fott {
+    background-color: #FDE49C;
+    /* height: 10vh; */
+    text-align: center;
+    font-family: 'Bangers', cursive;
+    padding: 1rem 0 0 0;
+}
+.image {
+  height: 3rem;
+}
+.rr {
+    display: flex;
+    flex-direction: row;
+}
+.rr img {
+    height: 2.5rem;
+    margin-left: 1rem;
+}
+.info {
+    background-color: #fac14d;
+    color: #000;
+    transition: 1s;
+
+}
+.fott {
+
+}
+.info:hover {
+    border: 1px solid #fac14d;
+    background: transparent;
+    color: #fff;
+    outline: none;
+}
+q {
+    font-size: x-large;
+    color: #ffebc9;
+    font-family: 'Style Script', cursive;
+}
+@media only screen and (min-width: 1000px) {
+    .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #FFEBC9;
+        font-family: 'Bangers', cursive;
+    }
+    video {
+        width: 100%;
+    }
+    #members {
+        background-color: #2d2826;
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .mtx {
+        margin: 15rem 0 0 3rem;
+    }
+    .max {
+        margin: 12rem 0 0 4rem;
+        border-radius: 3rem 6rem;
+        width: 17rem;
+    }
+    .imm {
+        margin: 0 0 0 44px;
+        padding: 0 0 0 20px;
+        filter: drop-shadow(.75em .75em 1em);
+    }
+    .bio {
+        padding-top: 17rem;
+    }
+    .about {
+        display: flex;
+        justify-content: flex-end;
+        padding: 0 3rem 0 0;
+        margin-right: 13em;
+        margin-left: 43em;
+    }
+    .des {
+        padding-left: 18rem;
+    }
+    .fott {
+        height: 10vh;
+    }
+
+}
+@media only screen and (max-width: 400px) {
+    .role {
+        width: 16rem;
+    }
+    .max {
+        width: 13rem;
+    }
+    .about {
+        width: 16rem;
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    #members {
+        padding: 0 0 0 10rem;
+    }
+    .text {
+        left: 37%;
+    }
+    .max {
+        width: 18rem;
+    }
+    .role {
+        font-size: revert;
+    }
+    .ign {
+        font-size: 3em;
+    }
+    q {
+        font-size: 3em;
+    }
+    .about {
+        height: 2rem;
+        font-size: revert;
+    }
+    .des {
+        font-size: 1.5em;
+    }
+    .fott {
+        height: 10vh;
+    }
+    .fott span {
+        font-size: 2em;
+    }
+    .sc {
+        font-size: 2em;
+    }
+}
+@media only screen and (max-width:1024px) {
+   .text {
+       top: 24%;
+   }
+   #members {
+       padding-top: 8rem;
+   }
+   .bio {
+       padding-top: 34rem;
+   }
+}
+@media only screen and (max-width:375px) {
+    .text {
+       top: 20%;
+    left: 31%;
+    }
+    #members {
+        padding-top: 2rem;
+        padding-left: 1rem;
+    }
+    .bio {
+        padding-top: 23rem;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 411px) {
+    #members {
+        padding-top: 0;
+    }
+    .bio {
+        padding-top: 19rem;
+    }
+}
+@media only screen and (max-width: 414px) {
+    #members {
+        padding-top: 0;
+    }
+    .bio {
+        padding-top: 19rem;
+    }
+}
+@media only screen and (max-width: 320px) {
+    .max {
+     width: 10rem;
+    }
+    .role {
+        font-size: small;
+        height: 1rem;
+    }
+    .ign {
+        font-size: medium;
+    }
+}
+@media only screen and (max-width: 768px) {
+    
+}

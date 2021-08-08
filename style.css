@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+}
+::-webkit-scrollbar {
+ display: none;
+}
+body {
+    overflow-x: none;
+}
+.navi {
+    background-color: #1f2229;
+    width: 100%;
+    color: #fac14d;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.navi a:hover {
+    color: white;
+}
+.image {
+    height: 3rem;
+}
+.info {
+    background-color: #fac14d;
+    color: #000;
+    transition: 1s;
+}
+.info:hover {
+    border: 1px solid #fac14d;
+    background: transparent;
+    color: #fff;
+    outline: none;
+}
+#members {
+    background-image: url('./images/vlbg.jpg');
+    padding-left: 2rem;
+    padding-top: 1rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.phoenix {
+  width: 6rem;
+}
+.home {
+    position: absolute;
+    top: 17%;
+    left: 38%;
+    width: 6rem;
+}
+.infor {
+    background-color: #FFEAC9;
+    height: 100vh;
+    font-family: 'Bangers', cursive;
+    color: black;
+    padding-top: 10rem;
+}
+.infor h2 {
+    background-color: #FFF8D9;
+    width: 95%;
+    padding-left: 1rem;
+}
+footer {
+    background-color: #F4DFD0;
+    height: 4rem;
+    font-family: 'Bangers', cursive;
+    text-align: center;
+    font-weight: 200;
+}
+.developer {
+    font-weight: 900;
+    color: brown;
+}
+.developer:hover {
+    text-decoration: underline;
+}
+
+/* media querry */
+@media only screen and (min-width: 1000px) {
+    .home {
+        top: 44%;
+        left: 45%;
+        width: 12rem;
+    }
+    #members {   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+    .phoenix {
+         width: 8rem;
+         margin-left: 8rem;
+    }
+    .mi {
+        margin-left: 12rem;
+    }
+    .mia {
+        margin-left: 14rem;
+    }
+    .infor h2 {
+        width: 39rem;
+    }
+}
+@media only screen and (max-width: 400px) {
+   
+}
+
+@media only screen and (min-width:689px) and (max-width:992px) {
+    .phoenix {
+        width: 9rem;
+        margin-left: 5rem;
+    }
+    .infor {
+        padding-top: 28rem;
+    }
+  .home {
+    top: 21%;
+    left: 43%;
+  }
+    
+}
+
+@media only screen and (max-width:1024px) {
+    .home {
+         top: 19%;
+         left: 40%;
+    }
+
+}
+@media only screen and (max-width: 320px) {
+    .infor {
+        padding-top: 7rem;
+        
+    }
+    .infor p {
+        width: 13em;
+    }
+    .home {
+        width: 4rem;
+        top: 24%;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .phoenix {
+        width: 5rem;
+    }
+}
