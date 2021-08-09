@@ -16,7 +16,7 @@
     position: absolute;
     top: 17%;
     left: 39%;
-    color: #FFEBC9;
+    color: #cc2a3c;
     font-family: 'Bangers', cursive;
 }
 #members {
@@ -100,7 +100,7 @@
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
-        color: #FFEBC9;
+        color: #cc2a3c;
         font-family: 'Bangers', cursive;
     }
     #members {
