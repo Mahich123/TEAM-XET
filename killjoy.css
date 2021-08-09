@@ -212,7 +212,10 @@ q {
     .bio {
         padding-top: 23rem;
     }
-    
+    .text {
+        top: 20%;
+        left: 39%;
+    }
     
 }
 
@@ -223,6 +226,10 @@ q {
     .bio {
         padding-top: 19rem;
     }
+    .text {
+        top: 21%;
+        left: 42%;
+    }
 }
 @media only screen and (max-width: 414px) {
     #members {
@@ -230,5 +237,10 @@ q {
     }
     .bio {
         padding-top: 19rem;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .text {
+        top: 25%;
     }
 }

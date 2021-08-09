@@ -204,6 +204,9 @@
     .des {
         font-size: 1em;
     }
+    .text {
+        top: 21%;
+    }
 }
 @media only screen and (max-width: 411px) {
     #members {
@@ -211,6 +214,9 @@
     }
     .bio {
         padding-top: 19rem;
+    }
+    .text {
+        top: 20%;
     }
 }
 @media only screen and (max-width: 414px) {
@@ -220,4 +226,9 @@
     .bio {
         padding-top: 21rem;
     }
+}
+@media only screen and (max-width: 320px) {
+        .text {
+            top: 23%;
+        }
 }

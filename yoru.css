@@ -219,7 +219,10 @@ q {
     .bio {
         padding-top: 23rem;
     }
-    
+    .text {
+        top: 22%;
+        left: 37%;
+    }
     
 }
 
@@ -229,6 +232,9 @@ q {
     }
     .bio {
         padding-top: 19rem;
+    }
+    .text {
+        top: 20%;
     }
 }
 @media only screen and (max-width: 414px) {
@@ -251,6 +257,9 @@ q {
         font-size: medium;
     }
 }
-@media only screen and (max-width: 768px) {
-    
+@media only screen and (max-width: 360px) {
+    .text {
+        top: 22%;
+        left: 35%;
+    }
 }
