@@ -20,10 +20,8 @@
     font-family: 'Bangers', cursive;
 }
 #members {
-    background-color: #0d343c;
+    background-color: #32191e;
     height: 100vh;
-    
-    
     display: grid;
     grid-template-columns: 1fr;
 }
@@ -103,8 +101,11 @@
         color: #cc2a3c;
         font-family: 'Bangers', cursive;
     }
+    video {
+        width: 100%;
+    }
     #members {
-        background-color: #0d343c;
+        background-color: #32191e;
         height: 100vh;
         display: grid;
         grid-template-columns: 1fr 1fr;

@@ -19,7 +19,7 @@
     font-family: 'Bangers', cursive;
 }
 #members {
-    background-color: #2d2826;
+    background-color: #23152f;
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
@@ -109,7 +109,7 @@ q {
         width: 100%;
     }
     #members {
-        background-color: #2d2826;
+        background-color: #23152f;
         height: 100vh;
         display: grid;
         grid-template-columns: 1fr 1fr;

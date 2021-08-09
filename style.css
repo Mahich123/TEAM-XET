@@ -87,6 +87,9 @@ footer {
         left: 45%;
         width: 12rem;
     }
+    .banner {
+        width: 100%;
+    }
     #members {   
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

@@ -111,6 +111,9 @@ q {
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    video {
+        width: 100%;
+    }
     .mtx {
         margin: 15rem 0 0 3rem;
     }
